@@ -1,0 +1,38 @@
+[projection]
+width = 220.0 # [10 μm]
+height = 220.0 # [10 μm]
+axis = "y"
+direction = 1
+focus_plane_position = 0.0
+source_plane_position = -500.0 # [10 μm]
+center = [0.0, 0.0]
+
+[emission]
+origin_type = "pixelated"
+base_intensity = 33.5 # [mW/cm^2] or [nW/(10 μm)^2]
+# ^ (this value is geometry specific and average peak intensity will be 12.5 mW/cm^2)
+
+[focus]
+mode = "collimated"
+
+[mask]
+type = "png"
+png_folder = "frames"
+frame_step = 6 
+pixel_pitch = [1.10, 1.10] # [10 μm]
+offset = [0.0, 0.0]
+
+[pixels]
+rays_per_pixel = 64
+pitch = [1.10, 1.10] # [10 μm]
+size = [1.10, 1.10] # [10 μm]
+activation_mode = "center"
+intensity_mode = "flat"
+
+[output]
+output_folder = "./rayfiles"
+output_filename = "placeholder.ry"
+batch_count = 1
+overwrite = true
+seed = 42
+rays_only = true
