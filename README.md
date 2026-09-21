@@ -43,6 +43,9 @@ Physics engine:
 }
 ```
 
+## Projection optimization
+The projections were optimized using [TOMO](https://github.com/computed-axial-lithography/tomo). All files associated with this optimization, both inputs and outputs are presented in the folder `optimized_projections`.
+
 ## Simulations
 The configuration files for running the simulations are given in the `simulations` folder. Instructions on execution and installation are given in [this tutorial](/simulations/readme.md).
 
