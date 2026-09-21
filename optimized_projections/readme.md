@@ -1,7 +1,6 @@
 # Optimization summary
 
 > ## 2. Slab
-> ![](2_slab/slab_6window.mp4)
 > ![](2_slab/dose_histogram_unified_slab.svg)
 
 
