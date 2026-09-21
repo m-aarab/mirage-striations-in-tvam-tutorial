@@ -1,0 +1,60 @@
+
+[output]
+output_folder = "rayfiles"
+output_filename = "cone.ry"
+
+# Number of projection files to generate
+batch_count = 60
+start_index = 0
+append_index = true
+zero_pad = 2
+
+[projection]
+# Focus-plane extents (mask/pixels live in this plane)
+width = 220.0 # [10 μm]
+height = 220.0 # [10 μm]
+
+# Projection axis and sign
+axis = "y"
+direction = 1
+
+# Positions along projection axis
+focus_plane_position = 0
+source_plane_position = -500 # [10 μm]
+
+# In-plane center offset [u, v]
+center = [0.0, 0.0]
+
+[emission]
+# "continuous" or "pixelated"
+origin_type = "pixelated"
+base_intensity = 12.5 # [mW/cm^2] or [nW/(10 μm)^2]
+
+[focus]
+mode = "collimated"
+
+[mask]
+type = "triangle"
+base = 200.0 # [10 μm]
+height = 200.0 # [10 μm]
+offset = [0.0, -0.2] # [10 μm]
+
+[pixels]
+rays_per_pixel = 64
+bins_per_pixel = [1, 1]
+pitch = [1.1, 1.1] # [10 μm]
+size = [1.1, 1.1] # [10 μm]
+
+# center: pixel center in/out
+activation_mode = "antialiased"
+intensity_mode = "flat"
+
+# Optional deterministic batch behavior
+seed = 42
+
+# If false, generation fails when target file exists
+overwrite = true
+
+# Optional: renormalize emitted energies so sum(Pray) == Ibase * Atotal(mask)
+normalize_batch_energy_to_mask_power = false
+rays_only = true
