@@ -1,0 +1,35 @@
+[paths]
+mesh = "vial_r1400_h3600_15um.vtk"
+output = "results/bear.vtu"
+
+# =============================================
+
+[rays]
+mode = "ordered_folder"
+folder = "rayfiles/"
+pattern = "*.ry"
+
+rotation_axis = [0.0, 0.0, 1.0]
+rotation_angle_deg = 6.0 # [˚]
+start_angle_deg = 0.0 # [˚]
+
+[output]
+capture_count = 10
+
+[optics]
+solver_type = "FE"
+optical_dt = 0.18333333 # [s]
+total_exposure_time = 55 # [s]
+
+[material]
+curing_model = "energy_threshold"
+
+[material.common]
+n0 = 1.496 # [-]
+n1 = 1.531 # [-]
+alpha0 = 0.0004 # [1/(10 μm)]
+alpha1 = 0.0004 # [1/(10 μm)]
+
+[material.energy_threshold]
+cureE = 0.4683333 # [J/cm^3] or [nJ/(10 μm)^3]
+gelE = 0.115 # [J/cm^3] or [nJ/(10 μm)^3]
