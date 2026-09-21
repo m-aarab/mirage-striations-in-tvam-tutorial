@@ -27,7 +27,7 @@ The tutorial below will show how to execute the simulation in the folder `0_half
 ```bash
 cd 0_halfcone
 ```
-### Generate mesh- and rayfiles (onetime)
+### Generate mesh- and rayfiles (one-time)
 
 2. Create the mesh:
 ```bash
@@ -52,3 +52,5 @@ python3 ../../mirageVPP/mirage_TVAM.py --config *.vamsim.toml
 ```bash
 paraview results/*.pvd
 ```
+
+$^*$ _note that the degree of cure in the simulation is normalized DoC ($\mathcal{\bar{X}}$). True DoC  ($\mathcal{{X}}$) can found using the relation_ $\mathcal{\bar{X}}=\mathcal{{X}}/\mathcal{{X}_\text{max}}$ 

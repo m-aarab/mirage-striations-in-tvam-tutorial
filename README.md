@@ -7,7 +7,7 @@ Marwan Aarab¹, Bo H. W. Moonen¹, Marc G. D. Geers¹, Joris J. C. Remmers¹
 
 ¹ Mechanics of Materials, Department of Mechanical Engineering, Eindhoven University of Technology
 
-## Attribution and Citation
+## Citation
 
 If you use Mirage VPP in academic work, please provide attribution and cite the relevant paper(s).
 
@@ -42,6 +42,18 @@ Physics engine:
     number = "6",
 }
 ```
+
+## Simulations
+The configuration files for running the simulations are given in the `simulations` folder. Instructions on execution and installation are given in [this tutorial](/simulations/readme.md).
+
+Note that the dimensions used in the simulations are:
+- Time unit: $1$ s
+- Length unit: $10$ μm
+- Energy unit: $1$ nJ
+
+From this we obtain derived units:
+- Intensity unit: $1$ $\text{nW/(10 μm)}^2=1\ \mathrm{mW/cm}^2$
+- Volumetric dosage or energy density unit: $1$ $\text{nJ/(10 μm)}^3=1\ \mathrm{J/cm}^3$
 
 
 ## License
