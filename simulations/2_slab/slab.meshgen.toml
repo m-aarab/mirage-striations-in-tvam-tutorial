@@ -1,0 +1,28 @@
+[mesh]
+output_folder = "."
+output_filename = "vial_r1400_h3600_15um.vtk"
+append_hmax = false
+
+# Geometry controls
+rmax = 140.0 # [10 μm]
+length = 360.0 # [10 μm]
+length_axis = "z" # one of: x, y, z
+
+# General target mesh size (used to derive circumferential resolution and dz)
+mesh_size = 1.5 # [10 μm]
+
+# Optional explicit angular resolution override:
+# h = 48
+
+# Optional overrides for legacy defaults:
+rbase = 120.0 # [10 μm]
+#nr = 6
+tune_transition = true # auto-balance square/transition/outer region sizes
+shift = [0.0, 0.0, 0.0]
+
+# Axial discretization
+axial_mode = "mesh_size"
+
+
+[fields]
+write = false
