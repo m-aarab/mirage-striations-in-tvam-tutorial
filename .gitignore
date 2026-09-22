@@ -1,2 +1,4 @@
 *.vtu
 *.pvd
+*.vtk
+*.ry
