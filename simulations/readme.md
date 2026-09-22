@@ -45,7 +45,7 @@ python3 ../../mirageVPP/DMDprojector-raydiscretizer/projectionImageGen.py --conf
 
 ### Simulation execution
 
-4. Run the Mirage TVAM simulation. It should take about 5 minutes (H100) depending on the GPU.
+4. Run the Mirage TVAM simulation. It should take about 45 minutes on an RTX A1000 or 5 minutes on an H100.
 
 ```bash
 python3 ../../mirageVPP/mirage_TVAM.py --config *.sim.toml
