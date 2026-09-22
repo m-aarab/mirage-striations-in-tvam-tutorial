@@ -19,7 +19,7 @@ capture_count = 10
 [optics]
 solver_type = "FE"
 optical_dt = 0.18333333 # [s]
-total_exposure_time = 55 # [s]
+total_exposure_time = 60 # [s]
 
 [material]
 curing_model = "energy_threshold"
