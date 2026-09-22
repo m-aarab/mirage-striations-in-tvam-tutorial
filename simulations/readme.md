@@ -48,7 +48,7 @@ python3 ../../mirageVPP/DMDprojector-raydiscretizer/projectionImageGen.py --conf
 4. Run the Mirage TVAM simulation. It should take about 5 minutes (H100) depending on the GPU.
 
 ```bash
-python3 ../../mirageVPP/mirage_TVAM.py --config *.vamsim.toml
+python3 ../../mirageVPP/mirage_TVAM.py --config *.sim.toml
 ```
 
 5. Inspect results in ParaView (`results/cone_lincure.pvd`):
