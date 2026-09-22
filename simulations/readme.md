@@ -53,4 +53,4 @@ python3 ../../mirageVPP/mirage_TVAM.py --config *.vamsim.toml
 paraview results/*.pvd
 ```
 
-$^*$ _note that the degree of cure in the simulation is normalized DoC ($\mathcal{\bar{X}}$). True DoC  ($\mathcal{{X}}$) can found using the relation_ $\mathcal{\bar{X}}=\mathcal{{X}}/\mathcal{{X}_\text{max}}$ 
+$^*$ _note that the degree of cure in the simulation is normalized DoC_ $(\mathcal{\bar{X}})$. _True DoC_  $(\mathcal{{X}})$ _can found using the relation_ $\mathcal{\bar{X}}=\mathcal{{X}}/\mathcal{{X}_\text{max}}$ 
