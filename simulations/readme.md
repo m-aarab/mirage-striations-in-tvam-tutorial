@@ -51,7 +51,7 @@ python3 ../../mirageVPP/DMDprojector-raydiscretizer/projectionImageGen.py --conf
 python3 ../../mirageVPP/mirage_TVAM.py --config *.sim.toml
 ```
 
-5. Inspect results in ParaView (`results/cone_lincure.pvd`):
+5. Inspect results in ParaView (`results/*.pvd`):
 
 ```bash
 paraview results/*.pvd
