@@ -2,13 +2,17 @@
 # Executing Mirage TVAM process simulations 
 
 ## Installation (one-time)
-Install required python modules:
-```bash
-python3 -m pip install -r mirageVPP/requirements.txt
-```
-
 Make sure your system matches the requirements listed on [PyPI](https://pypi.org/project/mirage-optics-engine/).
 
+Make sure the submodule repositories (`mirageVPP`, `DMDprojector-raydiscretizer`, `ModularHexMesh`) are also cloned:
+```bash
+git submodule update --init --recursive
+```
+
+Install required python modules, run from this directory:
+```bash
+python3 -m pip install -r ../mirageVPP/requirements.txt
+```
 
 ## Running a simulation
 All simulations have the same folder structure according to their `basename`:
