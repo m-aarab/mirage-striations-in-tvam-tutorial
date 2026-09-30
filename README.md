@@ -11,7 +11,7 @@ Marwan Aarab¹, Bo H. W. Moonen¹, Marc G. D. Geers¹, Joris J. C. Remmers¹
 
 If you use Mirage VPP in academic work, please provide attribution and cite the relevant paper(s) and/or dataset.
 
-This dataset: [![Dataset doi](https://img.shields.io/badge/DOI-10.5281/zenodo.23063097-9E4394)](https://doi.org/10.5281/zenodo.23063097) 
+This dataset: [![Dataset doi](https://img.shields.io/badge/DOI-10.5281/zenodo.23060992-9E4394)](https://doi.org/10.5281/zenodo.23060992) 
 
 TVAM simulation `placeholder until publication`: [![Article doi](https://img.shields.io/badge/DOI-10.xxxx/xxxx-9E4394)]()
 
