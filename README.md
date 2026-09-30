@@ -1,6 +1,6 @@
 ![](/docs/images/graphabstr.svg)
 
-# Numerical study of light self-focusing-induced striations in tomographic volumetric additive manufacturing
+# Data and configuration files for 'Numerical study of light self-focusing-induced striations in tomographic volumetric additive manufacturing'
 Marwan Aarab¹, Bo H. W. Moonen¹, Marc G. D. Geers¹, Joris J. C. Remmers¹
 
 ---
@@ -9,45 +9,19 @@ Marwan Aarab¹, Bo H. W. Moonen¹, Marc G. D. Geers¹, Joris J. C. Remmers¹
 
 ## Citation
 
-If you use Mirage VPP in academic work, please provide attribution and cite the relevant paper(s).
+If you use Mirage VPP in academic work, please provide attribution and cite the relevant paper(s) and/or dataset.
 
-Process simulation (placeholder untill published):
+This dataset `placeholder until publication`: [![Dataset doi](https://img.shields.io/badge/DOI-10.xxxx/xxxx-9E4394)]()
 
-```bibtex
-@article{aarab_numerical,
-    title = "Numerical study of light self-focusing-induced striations in tomographic volumetric additive manufacturing",
-    author = "Aarab, Marwan and Moonen, \{Bo H.W.\} and Geers, \{Marc G.D.\} and Remmers, \{Joris J.C.\}",
-    year = "",
-    doi = "",
-    volume = "",
-    pages = "",
-    number = "",
-    journal = "",
-    publisher = "",
-}
-```
+TVAM simulation `placeholder until publication`: [![Article doi](https://img.shields.io/badge/DOI-10.xxxx/xxxx-9E4394)]()
 
-Physics engine:
-
-```bibtex
-@article{aarab_fast_2026,
-    title = "Fast {Hessian}-free finite element ray tracing method for light transport in gradient-index media",
-    author = "Marwan Aarab and Geers, \{Marc G.D.\} and Remmers, \{Joris J.C.\}",
-    year = "2026",
-    doi = "10.1364/OE.582633",
-    volume = "34",
-    pages = "10749--10769",
-    journal = "Optics Express",
-    publisher = "Optica Publishing Group",
-    number = "6",
-}
-```
+Physics engine: [![Optics Express paper](https://img.shields.io/badge/DOI-10.1364/OE.582633-9E4394)](https://doi.org/10.1364/OE.582633)
 
 ## Projection optimization
 The projections were optimized using [TOMO](https://github.com/computed-axial-lithography/tomo). All files associated with this optimization, both inputs and outputs are presented in the folder `optimized_projections`.
 
 ## Simulations
-> (!) Mirage VPP is currently a private repository, which will be released upon publication of `aarab_numerical`.
+> (!) Mirage VPP is currently a private repository, which will be released upon publication of 'Numerical study of light self-focusing-induced striations in tomographic volumetric additive manufacturing'.
 
 The configuration files for running the simulations are given in the `simulations` folder. Instructions on execution and installation are given in [this tutorial](/simulations/readme.md).
 
