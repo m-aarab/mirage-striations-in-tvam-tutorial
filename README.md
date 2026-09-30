@@ -37,4 +37,4 @@ From this we obtain derived units:
 
 ## License
 
-The data and configuration files in this repository are licensed under [CC BY 4.0](/LICENSE.txt). However, the simulation code located in the `mirageVPP` directory is pulled from an external repository and is strictly licensed under [CC BY-NC 4.0]. You may not use the simulation code for commercial purposes.
+The data and configuration files in this repository are licensed under [CC BY 4.0](https://github.com/m-aarab/mirage-striations-in-tvam-tutorial/tree/main?tab=License-1-ov-file). However, the simulation code located in the `mirageVPP` directory is pulled from an external repository and is strictly licensed under [CC BY-NC 4.0]. You may not use the simulation code for commercial purposes.
