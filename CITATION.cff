@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this data or these configuration files, please cite the manuscript and this dataset."
 type: dataset
 title: "Data and configuration files for 'Numerical study of light self-focusing-induced striations in tomographic volumetric additive manufacturing'"
-version: "v0.9.0-pre-publication"
+version: "v0.9.0b-pre-publication"
 date-released: "2026-09-30"
 authors:
   - family-names: Aarab
