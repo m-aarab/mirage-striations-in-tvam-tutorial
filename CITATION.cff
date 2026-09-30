@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this data or these configuration files, please cite the manuscript and this dataset."
+type: dataset
+title: "Data and configuration files for 'Numerical study of light self-focusing-induced striations in tomographic volumetric additive manufacturing'"
+version: "v0.9.0-pre-publication"
+date-released: "2026-09-30"
+authors:
+  - family-names: Aarab
+    given-names: Marwan
+    affiliation: "Mechanics of Materials, Department of Mechanical Engineering, Eindhoven University of Technology"
+    orcid: "https://orcid.org/0009-0002-7358-6172"
+  - family-names: Moonen
+    given-names: Bo H. W.
+    affiliation: "Mechanics of Materials, Department of Mechanical Engineering, Eindhoven University of Technology"
+  - family-names: Geers
+    given-names: Marc G. D.
+    orcid: "https://orcid.org/0000-0002-0009-6351"
+    affiliation: "Mechanics of Materials, Department of Mechanical Engineering, Eindhoven University of Technology"
+  - family-names: Remmers
+    given-names: Joris J. C.
+    orcid: "https://orcid.org/0000-0001-5823-2558"
+    affiliation: "Mechanics of Materials, Department of Mechanical Engineering, Eindhoven University of Technology"
+license: CC-BY-4.0
+repository-code: "https://github.com/m-aarab/mirage-striations-in-tvam-tutorial"
+keywords:
+  - tomographic volumetric additive manufacturing
+  - light self-focusing
+  - striations
+  - finite element ray tracing
+  - Photopolymerization
+abstract: "Data and configuration files accompanying the manuscript 'Numerical study of light self-focusing-induced striations in tomographic volumetric additive manufacturing'. Includes optimized projections and Mirage VPP simulation configuration files. Running the simulations requires Mirage VPP, which will be released upon publication."
+
+# Uncomment and fill in once the paper is published:
+# preferred-citation:
+#   type: article
+#   title: "Numerical study of light self-focusing-induced striations in tomographic volumetric additive manufacturing"
+#   authors:
+#     - family-names: Aarab
+#       given-names: Marwan
+#     - family-names: Moonen
+#       given-names: Bo H. W.
+#     - family-names: Geers
+#       given-names: Marc G. D.
+#     - family-names: Remmers
+#       given-names: Joris J. C.
+#   journal: "..."
+#   year: 20XX
+#   doi: "10.xxxx/xxxxx"
