@@ -11,7 +11,7 @@ Marwan Aarab¹, Bo H. W. Moonen¹, Marc G. D. Geers¹, Joris J. C. Remmers¹
 
 If you use Mirage VPP in academic work, please provide attribution and cite the relevant paper(s).
 
-Process simulation:
+Process simulation (placeholder untill published):
 
 ```bibtex
 @article{aarab_numerical_2026,
@@ -22,8 +22,8 @@ Process simulation:
     volume = "",
     pages = "",
     number = "",
-    journal = "Additive Manufacturing",
-    publisher = "Elsevier",
+    journal = "",
+    publisher = "",
 }
 ```
 
