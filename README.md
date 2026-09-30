@@ -47,6 +47,8 @@ Physics engine:
 The projections were optimized using [TOMO](https://github.com/computed-axial-lithography/tomo). All files associated with this optimization, both inputs and outputs are presented in the folder `optimized_projections`.
 
 ## Simulations
+> (!) Mirage VPP is currently a private repository, which will be released upon publication of `aarab_numerical_2026`.
+
 The configuration files for running the simulations are given in the `simulations` folder. Instructions on execution and installation are given in [this tutorial](/simulations/readme.md).
 
 Note that the dimensions used in the simulations are:
